@@ -7,11 +7,11 @@ function App() {
     <>
   <div className="h-screen bg-pink-100 flex justify-center items-center">
 
-      <div className="w-[420px] min-h-[500px] bg-white rounded-[30px] shadow-2xl p-6">
+      <div className="w-[450px] h-[500px] bg-white rounded-4xl shadow-2xl p-6">
 
-        {/* Title */}
+       
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-pink-600">
+          <h1 className="text-4xl font-bold text-pink-600 ">
             🛍️ Shopping Mall
           </h1>
 
@@ -20,7 +20,7 @@ function App() {
           </p>
         </div>
 
-        {/* Product Card */}
+       
         <div className="mt-8 flex flex-col gap-5">
 
           {/* Dress */}
