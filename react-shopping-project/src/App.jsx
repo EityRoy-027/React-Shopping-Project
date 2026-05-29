@@ -2,6 +2,7 @@
 
 function App() {
 
+  
 
   return (
     <>
@@ -23,8 +24,8 @@ function App() {
        
         <div className="mt-8 flex flex-col gap-5">
 
-          {/* Dress */}
-          <div className="bg-pink-50 p-5 rounded-2xl flex justify-between items-center shadow-sm">
+        
+          <div className="bg-pink-50 p-5 rounded-2xl flex justify-between items-center shadow-md">
 
             <div>
               <h2 className="text-xl font-bold">
@@ -36,14 +37,14 @@ function App() {
               </p>
             </div>
 
-            <button className="bg-pink-500 hover:bg-pink-600 text-white px-5 py-2 rounded-full font-semibold">
+            <button className="bg-pink-400 hover:bg-pink-600 text-white px-5 py-2 rounded-full font-semibold">
               Buy
             </button>
 
           </div>
 
-          {/* Bag */}
-          <div className="bg-purple-50 p-5 rounded-2xl flex justify-between items-center shadow-sm">
+      
+          <div className="bg-purple-50 p-5 rounded-2xl flex justify-between items-center shadow-md">
 
             <div>
               <h2 className="text-xl font-bold">
@@ -55,13 +56,13 @@ function App() {
               </p>
             </div>
 
-            <button className="bg-purple-500 hover:bg-purple-600 text-white px-5 py-2 rounded-full font-semibold">
+            <button className="bg-purple-400 hover:bg-purple-600 text-white px-5 py-2 rounded-full font-semibold">
               Buy
             </button>
 
           </div>
 
-          {/* Shoes */}
+        
           <div className="bg-rose-50 p-5 rounded-2xl flex justify-between items-center shadow-sm">
 
             <div>
@@ -74,7 +75,7 @@ function App() {
               </p>
             </div>
 
-            <button className="bg-rose-500 hover:bg-rose-600 text-white px-5 py-2 rounded-full font-semibold">
+            <button className="bg-rose-400 hover:bg-rose-600 text-white px-5 py-2 rounded-full font-semibold">
               Buy
             </button>
 
