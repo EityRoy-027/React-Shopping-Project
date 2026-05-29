@@ -66,7 +66,7 @@ function App() {
               </p>
             </div>
 
-            <button className="bg-pink-400 hover:bg-pink-600 text-white px-5 py-2 rounded-full font-semibold">
+            <button onClick={buyDress} className="bg-pink-400 hover:bg-pink-600 text-white px-5 py-2 rounded-full font-semibold">
               Buy
             </button>
 
@@ -85,7 +85,7 @@ function App() {
               </p>
             </div>
 
-            <button className="bg-purple-400 hover:bg-purple-600 text-white px-5 py-2 rounded-full font-semibold">
+            <button onClick={buyBag} className="bg-purple-400 hover:bg-purple-600 text-white px-5 py-2 rounded-full font-semibold">
               Buy
             </button>
 
