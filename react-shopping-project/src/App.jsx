@@ -2,13 +2,42 @@
 
 function App() {
 
-  
+  const  securityCheck=()=>{
+    alert("Security Checking....")
+  }
+
+   const openMall = () => {
+    alert("🛍️ Shopping Mall Opened")
+  }
+
+   const buyDress = (event) => {
+
+    event.stopPropagation()
+
+    alert("👗 Dress Purchased")
+  }
+
+
+   const buyBag = (event) => {
+
+    event.stopPropagation()
+
+    alert("👜 Bag Purchased")
+  }
+
+   const buyShoes = (event) => {
+
+    event.stopPropagation()
+
+    alert("👠 Shoes Purchased")
+  }
 
   return (
     <>
   <div className="h-screen bg-pink-100 flex justify-center items-center">
 
-      <div className="w-[450px] h-[500px] bg-white rounded-4xl shadow-2xl p-6">
+      <div  onClick={openMall}
+        onClickCapture={securityCheck} className="w-[450px] h-[500px] bg-white rounded-4xl shadow-2xl p-6">
 
        
         <div className="text-center">
